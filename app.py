@@ -9,7 +9,7 @@ from migrate_logs import save_to_nosql, log_feedback_nosql
 load_dotenv()
 
 # --- 1. Page Config & Professional Dark Theme ---
-st.set_page_config(page_title="SwaritN AI Movie Search", page_icon="🎬", layout="wide")
+st.set_page_config(page_title="AI Movie Search Engine", page_icon="🎬", layout="wide")
 
 # Custom CSS for Pure Black and White High-Contrast UI
 st.markdown("""
@@ -99,7 +99,7 @@ def load_model():
 model = load_model()
 
 # --- 3. UI Header ---
-st.title("🎬 SWARITN MOVIE AI ENGINE")
+st.title("🎬 AI MOVIE SEARCH ENGINE")
 st.write("---")
 
 # --- 4. Search Section ---
